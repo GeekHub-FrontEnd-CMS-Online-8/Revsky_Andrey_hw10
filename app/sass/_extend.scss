@@ -1,0 +1,66 @@
+.header_style {
+  width: 1170px;
+  margin: 0 auto;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+
+  &__logo {
+    padding-top: 35px;
+    width: 150px;
+    height: 30px;
+    overflow: hidden;
+  }
+
+  &__menu {
+    width: 500px;
+
+    .main-menu {
+      display: flex;
+      justify-content: space-around;
+      justify-items: center;
+
+      &-item {
+        padding: 40px 25px 15px;
+        border-radius: 0 0 5px 5px;
+        background: transparent;
+
+        &:hover {
+          background: transparent;
+        }
+
+        &-link {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.box {
+  width: 1170px;
+  height: 175px;
+  margin: 100px auto 0;
+
+  &__header {
+    &__title {
+      font-family: 'Lato', sans-serif;
+      font-size: 60px;
+      text-transform: uppercase;
+    }
+
+    &__subtitle {
+      margin-top: 25px;
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    &__text {
+      margin-top: 10px;
+      line-height: 28px;
+      font-size: 14px;
+    }
+  }
+}

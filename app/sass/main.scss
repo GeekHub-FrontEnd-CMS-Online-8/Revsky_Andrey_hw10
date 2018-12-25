@@ -1,0 +1,22 @@
+
+body, html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+@import "reset";
+@import "extend";
+@import "welcome";
+@import "services";
+@import "about";
+@import "work";
+@import "contact";
