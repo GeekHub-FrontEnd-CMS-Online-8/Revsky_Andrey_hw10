@@ -1,9 +1,10 @@
 @import "extend";
 
-.bg-contact{
-  background: #75b4aa url(../img/bg-contack.png) 50% 50% no-repeat;
+.bg-contact {
+  background: #75b4aa url(../img/bg-contack.png) no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 81%;
+
   .header_style__menu {
     .main-menu-item {
       &-active {
@@ -15,18 +16,85 @@
       }
     }
   }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .wrap {
+    width: 560px;
+    border: 1px solid red;
+    text-align: left;
+  }
+
+  .our__adress {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+
+    h5 {
+      margin-top: 20px;
+      font-size: 20px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+
+    }
+
+    p {
+      font-size: 16px;
+
+    }
+
+    .contact-me {
+      margin-top: 50px;
+      width: 200px;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      justify-content: space-between;
+    .text-color {
+        color: #c0dfda;
+      width: 55px;
+      }
+    }
+
+
+
+    .map {
+      border-radius: 5px;
+      overflow: hidden;
+    }
+  }
+
+  .form{
+    input{
+      width: 250px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      background: #68a097;
+      color: transparent;
+      margin-top: 10px;
+      margin-right: 10px;
+      padding-left: 15px;
+      font-size: 16px;
+    }
+  }
 }
 
 
-.footer{
+.footer {
   height: 150px;
   background: #68a097;
+
   .socials-list {
     display: flex;
     justify-content: center;
     align-items: center;
-    .socials-item{
+
+    .socials-item {
       margin: 42px;
+
       .fab {
         font-size: 30px;
         line-height: 60px;
@@ -37,19 +105,23 @@
         border-radius: 50%;
         border: 1px solid transparent;
       }
-      .fa-facebook-f:hover{
+
+      .fa-facebook-f:hover {
         background: #4f689e;
         border: 1px solid #fff;
       }
-      .fa-twitter:hover{
+
+      .fa-twitter:hover {
         background: #74c7d5;
         border: 1px solid #fff;
       }
-      .fa-google-plus-g:hover{
+
+      .fa-google-plus-g:hover {
         background: #df5c64;
         border: 1px solid #fff;
       }
-      .fa-linkedin-in:hover{
+
+      .fa-linkedin-in:hover {
         background: #3e61af;
         border: 1px solid #fff;
       }
