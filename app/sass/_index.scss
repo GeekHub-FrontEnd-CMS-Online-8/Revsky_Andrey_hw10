@@ -1,0 +1,131 @@
+@import "extend";
+
+section {
+
+  background: #2c3e50 url(../img/bg-welcome.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .header_style__menu {
+    .main-menu-item {
+      &-active {
+        background: #74c7d5;
+      }
+
+      &:hover {
+        background: #74c7d5;
+      }
+    }
+  }
+}
+
+.box {
+  .slider {
+    max-width: 1100px;
+    height: 200px;
+    position: relative;
+    margin:  200px auto ;
+    background: #fff;
+    opacity: 0.85;
+    border-radius: 10px;
+  }
+
+  .slider-item {
+    display: none;
+  }
+
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    transition: 0.75s;
+    opacity: 0.4;
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+
+  .next {
+    right: -15%;
+  }
+  .prev{
+    left: -15%  ;
+  }
+
+
+
+  .slogan {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: #74c7d5;
+    font-weight: bold;
+    font-size: 130px;
+    text-transform: uppercase;
+  }
+
+
+  .title {
+    position: absolute;
+    top: 15%;
+    left: -1%;
+    text-align: right;
+    width: 415px;
+    color: #74c7d5;
+    font-size: 60px;
+
+
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #717171;
+    opacity: 0.7;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #74c7d5;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+
+  }
+}

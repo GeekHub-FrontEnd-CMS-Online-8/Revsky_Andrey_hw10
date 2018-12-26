@@ -23,7 +23,6 @@
 
   .wrap {
     width: 560px;
-    border: 1px solid red;
     text-align: left;
   }
 
@@ -52,12 +51,12 @@
       line-height: 20px;
       display: flex;
       justify-content: space-between;
-    .text-color {
+
+      .text-color {
         color: #c0dfda;
-      width: 55px;
+        width: 55px;
       }
     }
-
 
 
     .map {
@@ -66,65 +65,73 @@
     }
   }
 
-  .form{
-    input{
-      width: 250px;
-      height: 40px;
+  .form {
+    .flex-wrap {
+      display: flex;
+      justify-content: space-around;
+
+      input {
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background: #68a097;
+
+        margin-top: 10px;
+        margin-right: 10px;
+        padding-left: 25px;
+        font-size: 16px;
+
+        &::placeholder {
+          color: #7bbdb3;
+        }
+
+        &:hover {
+          background: #fff;
+        }
+      }
+    }
+
+    textarea {
+      width: 525px;
+      height: 150px;
       border: none;
       border-radius: 5px;
       background: #68a097;
-      color: transparent;
+
       margin-top: 10px;
       margin-right: 10px;
-      padding-left: 15px;
+      padding-left: 25px;
       font-size: 16px;
+
+      &::placeholder {
+        color: #7bbdb3;
+      }
+
+      &:hover {
+        background: #fff;
+      }
+    }
+
+    .bnt_form {
+      margin:25px 25%;
+      color: #fff;
+      height: 45px;
+      width: 260px;
+      text-transform: uppercase;
+      background: #df5c64;
+      border-radius: 10px;
+      border: 5px solid transparent;
+      border-bottom: 5px solid #c8535a;
+      &:hover{
+        transition: 0.75s;
+        border: 5px solid #c8535a;
+        background: #fff;
+        color:#c8535a ;
+
+      }
     }
   }
 }
 
 
-.footer {
-  height: 150px;
-  background: #68a097;
-
-  .socials-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .socials-item {
-      margin: 42px;
-
-      .fab {
-        font-size: 30px;
-        line-height: 60px;
-        color: #fff;
-        width: 60px;
-        height: 60px;
-        background: #82c8bd;
-        border-radius: 50%;
-        border: 1px solid transparent;
-      }
-
-      .fa-facebook-f:hover {
-        background: #4f689e;
-        border: 1px solid #fff;
-      }
-
-      .fa-twitter:hover {
-        background: #74c7d5;
-        border: 1px solid #fff;
-      }
-
-      .fa-google-plus-g:hover {
-        background: #df5c64;
-        border: 1px solid #fff;
-      }
-
-      .fa-linkedin-in:hover {
-        background: #3e61af;
-        border: 1px solid #fff;
-      }
-    }
-  }
-}
