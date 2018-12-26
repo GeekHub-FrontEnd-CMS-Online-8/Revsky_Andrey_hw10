@@ -1,9 +1,10 @@
 @import "extend";
 
-.bg-about{
+.bg-about {
   background: #665464 url(../img/bg-about.png) 50% 50% no-repeat;
   background-size: cover;
   height: 100%;
+
   .header_style__menu {
     .main-menu-item {
       &-active {
@@ -14,5 +15,116 @@
         background: #91778e;
       }
     }
+  }
+
+  .box {
+    &__bnt {
+     position: relative;
+      right: 50px;
+      width: 270px;
+      height: 50px;
+      padding: 15px 50px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      position: relative;
+      background: #a1ca6c;
+      color: #fff;
+
+      &:after {
+        top: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(161, 202, 108, 0);
+        border-top-color: #a1ca6c;
+        border-width: 20px;
+        margin-left: -20px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transition: 1s;
+        opacity: 0.8;
+        color: #000;
+      }
+    }
+
+    &__main {
+      margin-top: 50px;
+    }
+    &__item{
+      width: 200px;
+      background: blue;
+    }
+    .about {
+      text-align: center;
+      height: 360px;
+      margin: 0 10px ;
+      background: #534451;
+      &:hover {
+      .img-user{
+        transition: 0.75s;
+        cursor: pointer;
+        background: url(../img/user_ava_hover.png) 50% no-repeat;
+        border: 5px solid #df5c64;
+      }
+        p{
+          color:#ff8973;
+        }
+        .fa-facebook-f{
+          background: #4f689e;
+        }
+        .fa-twitter{
+          background: #74c7d5;
+        }
+        .fa-google-plus-g{
+          background: #df5c64;
+        }
+        .fa-linkedin-in{
+          background: #3e61af;
+        }
+
+    }
+      .img-user {
+        margin: 45px auto 25px;
+        width: 155px;
+        height: 155px;
+        background: url(../img/user_ava.png) 50% no-repeat;
+        border: 5px solid #a1859e;
+        border-radius: 50%;
+      }
+      .user-name {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+      }
+      p {
+        margin: 20px auto;
+        font-size: 14px;
+        color: #a1ca6c;
+
+      }
+
+      &__social {
+        width: 200px;
+        margin: 0 auto;
+        .fab{
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          font-size:18px ;
+          line-height: 32px;
+          color: #fff;
+          background: #a1859e;
+
+        }
+      }
+    }
+
+
   }
 }

@@ -16,3 +16,43 @@
     }
   }
 }
+
+
+.footer{
+  height: 150px;
+  background: #68a097;
+  .socials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .socials-item{
+      margin: 42px;
+      .fab {
+        font-size: 30px;
+        line-height: 60px;
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        background: #82c8bd;
+        border-radius: 50%;
+        border: 1px solid transparent;
+      }
+      .fa-facebook-f:hover{
+        background: #4f689e;
+        border: 1px solid #fff;
+      }
+      .fa-twitter:hover{
+        background: #74c7d5;
+        border: 1px solid #fff;
+      }
+      .fa-google-plus-g:hover{
+        background: #df5c64;
+        border: 1px solid #fff;
+      }
+      .fa-linkedin-in:hover{
+        background: #3e61af;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
