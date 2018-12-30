@@ -137,6 +137,133 @@ table {
         background: #3e61af;
         border: 2px solid #fff; }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_style {
+    width: 970px; }
+  .box {
+    width: 990px; }
+    .box__main {
+      width: 970px; }
+      .box__main__item {
+        width: 235px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_style {
+    width: 100%; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 5%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none;
+        border: 2px solid transparent; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 220px;
+        height: 150px;
+        background: none;
+        right: -5%;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #c3c3c3; }
+  .box {
+    width: 700px; }
+  __main {
+    width: 730px; } }
+
+@media (max-width: 767.98px) {
+  .header_style {
+    width: 730px; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 9%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 320px;
+        height: 150px;
+        background: none;
+        right: -55px;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #737373; }
+  .box {
+    width: 95%; }
+  __main {
+    width: 100%; } }
+
 .header_style {
   width: 1170px;
   margin: 0 auto;
@@ -223,9 +350,137 @@ table {
         background: #3e61af;
         border: 2px solid #fff; }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_style {
+    width: 970px; }
+  .box {
+    width: 990px; }
+    .box__main {
+      width: 970px; }
+      .box__main__item {
+        width: 235px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_style {
+    width: 100%; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 5%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none;
+        border: 2px solid transparent; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 220px;
+        height: 150px;
+        background: none;
+        right: -5%;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #c3c3c3; }
+  .box {
+    width: 700px; }
+  __main {
+    width: 730px; } }
+
+@media (max-width: 767.98px) {
+  .header_style {
+    width: 730px; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 9%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 320px;
+        height: 150px;
+        background: none;
+        right: -55px;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #737373; }
+  .box {
+    width: 95%; }
+  __main {
+    width: 100%; } }
+
 section {
   background: #2c3e50 url(../img/bg-welcome.png) no-repeat;
   background-size: cover;
+  width: 100%;
   height: 100%; }
   section .header_style__menu .main-menu-item-active {
     background: #74c7d5; }
@@ -236,7 +491,7 @@ section {
   /* The dots/bullets/indicators */
   /* Fading animation */ }
   .box .slider {
-    max-width: 1100px;
+    max-width: 1000px;
     height: 200px;
     position: relative;
     margin: 200px auto;
@@ -260,13 +515,13 @@ section {
     .box .prev:hover, .box .next:hover {
       opacity: 1; }
   .box .next {
-    right: -15%; }
+    right: -8%; }
   .box .prev {
-    left: -15%; }
+    left: -8%; }
   .box .slogan {
     position: absolute;
     top: 15%;
-    left: 40%;
+    left: 42%;
     color: #74c7d5;
     font-weight: bold;
     font-size: 130px;
@@ -309,6 +564,95 @@ section {
   to {
     opacity: 1; } }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .slider {
+    width: 700px; }
+  .box {
+    margin: 150px auto; }
+    .box .next {
+      right: -10%; }
+    .box .prev {
+      left: -10%; }
+    .box .slogan {
+      top: 15%;
+      left: 45%;
+      font-size: 90px; }
+    .box .title {
+      font-size: 30px;
+      top: 25%;
+      left: -1%;
+      text-align: right;
+      width: 300px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slider {
+    width: 600px; }
+  .box {
+    margin: 100px auto; }
+    .box .next {
+      right: -10%; }
+    .box .prev {
+      left: -10%; }
+    .box .slogan {
+      top: 35%;
+      left: 45%;
+      font-size: 60px; }
+    .box .title {
+      font-size: 20px;
+      top: 45%;
+      left: -10%;
+      text-align: right;
+      width: 300px; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slider {
+    height: 50%;
+    width: 70%; }
+    .slider-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline; }
+  .box {
+    margin: 0 auto; }
+    .box .next {
+      right: -25%; }
+    .box .prev {
+      left: -25%; }
+    .box .slogan {
+      top: 35%;
+      left: 50%;
+      font-size: 40px; }
+    .box .title {
+      font-size: 16px;
+      top: 45%;
+      left: -30%;
+      text-align: right;
+      width: 300px; } }
+
+@media (max-width: 576px) {
+  .bg-welcome {
+    width: 100%;
+    height: 100%; }
+  .slider {
+    width: 70%; }
+    .slider .dot {
+      display: none; }
+  .box {
+    margin: 0 auto; }
+    .box .next {
+      right: -25%; }
+    .box .prev {
+      left: -25%; }
+    .box .slogan {
+      top: 45%;
+      left: 40%;
+      font-size: 30px; }
+    .box .title {
+      font-size: 14px;
+      top: 25%;
+      left: -20%;
+      text-align: right; } }
+
 .header_style {
   width: 1170px;
   margin: 0 auto;
@@ -394,6 +738,133 @@ section {
       .footer .socials-list .socials-item .fa-linkedin-in:hover {
         background: #3e61af;
         border: 2px solid #fff; }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_style {
+    width: 970px; }
+  .box {
+    width: 990px; }
+    .box__main {
+      width: 970px; }
+      .box__main__item {
+        width: 235px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_style {
+    width: 100%; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 5%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none;
+        border: 2px solid transparent; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 220px;
+        height: 150px;
+        background: none;
+        right: -5%;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #c3c3c3; }
+  .box {
+    width: 700px; }
+  __main {
+    width: 730px; } }
+
+@media (max-width: 767.98px) {
+  .header_style {
+    width: 730px; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 9%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 320px;
+        height: 150px;
+        background: none;
+        right: -55px;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #737373; }
+  .box {
+    width: 95%; }
+  __main {
+    width: 100%; } }
 
 .bg-services {
   background: #b74c52 url(../img/bg-services.png) no-repeat;
@@ -503,6 +974,133 @@ section {
       .footer .socials-list .socials-item .fa-linkedin-in:hover {
         background: #3e61af;
         border: 2px solid #fff; }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_style {
+    width: 970px; }
+  .box {
+    width: 990px; }
+    .box__main {
+      width: 970px; }
+      .box__main__item {
+        width: 235px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_style {
+    width: 100%; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 5%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none;
+        border: 2px solid transparent; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 220px;
+        height: 150px;
+        background: none;
+        right: -5%;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #c3c3c3; }
+  .box {
+    width: 700px; }
+  __main {
+    width: 730px; } }
+
+@media (max-width: 767.98px) {
+  .header_style {
+    width: 730px; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 9%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 320px;
+        height: 150px;
+        background: none;
+        right: -55px;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #737373; }
+  .box {
+    width: 95%; }
+  __main {
+    width: 100%; } }
 
 .bg-about {
   background: #665464 url(../img/bg-about.png) no-repeat;
@@ -679,6 +1277,133 @@ section {
         background: #3e61af;
         border: 2px solid #fff; }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_style {
+    width: 970px; }
+  .box {
+    width: 990px; }
+    .box__main {
+      width: 970px; }
+      .box__main__item {
+        width: 235px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_style {
+    width: 100%; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 5%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none;
+        border: 2px solid transparent; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 220px;
+        height: 150px;
+        background: none;
+        right: -5%;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #c3c3c3; }
+  .box {
+    width: 700px; }
+  __main {
+    width: 730px; } }
+
+@media (max-width: 767.98px) {
+  .header_style {
+    width: 730px; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 9%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 320px;
+        height: 150px;
+        background: none;
+        right: -55px;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #737373; }
+  .box {
+    width: 95%; }
+  __main {
+    width: 100%; } }
+
 .bg-work {
   background: #81a256 url(../img/bg-work.png) no-repeat;
   background-size: cover;
@@ -847,6 +1572,133 @@ section {
         background: #3e61af;
         border: 2px solid #fff; }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_style {
+    width: 970px; }
+  .box {
+    width: 990px; }
+    .box__main {
+      width: 970px; }
+      .box__main__item {
+        width: 235px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_style {
+    width: 100%; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 5%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none;
+        border: 2px solid transparent; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 220px;
+        height: 150px;
+        background: none;
+        right: -5%;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #c3c3c3; }
+  .box {
+    width: 700px; }
+  __main {
+    width: 730px; } }
+
+@media (max-width: 767.98px) {
+  .header_style {
+    width: 730px; }
+    .header_style .main-menu {
+      top: 5%;
+      right: 9%;
+      position: relative;
+      display: inline-block; }
+      .header_style .main-menu, .header_style .main-menu:before, .header_style .main-menu:after {
+        cursor: pointer;
+        border-radius: 5px;
+        height: 5px;
+        width: 35px;
+        background: white;
+        position: absolute;
+        display: block;
+        content: ''; }
+      .header_style .main-menu:before {
+        top: -10px; }
+      .header_style .main-menu:after {
+        bottom: -10px; }
+      .header_style .main-menu li {
+        display: none; }
+        .header_style .main-menu li a {
+          font-size: 15px;
+          padding: 5px 50px;
+          color: #fff;
+          border: 2px solid transparent; }
+      .header_style .main-menu:hover {
+        position: absolute;
+        transition: 0.75s;
+        opacity: 0.95;
+        border-radius: 5px;
+        width: 320px;
+        height: 150px;
+        background: none;
+        right: -55px;
+        top: 0;
+        bottom: 0; }
+        .header_style .main-menu:hover:before {
+          display: none; }
+        .header_style .main-menu:hover:after {
+          display: none; }
+        .header_style .main-menu:hover li {
+          display: block;
+          padding: 5px;
+          z-index: 1000; }
+          .header_style .main-menu:hover li:hover {
+            transition: 0.5s;
+            border-radius: 5px;
+            border: 2px solid #c3c3c3; }
+            .header_style .main-menu:hover li:hover a:hover {
+              color: #737373; }
+  .box {
+    width: 95%; }
+  __main {
+    width: 100%; } }
+
 .bg-contact {
   background: #75b4aa url(../img/bg-contack.png) no-repeat;
   background-size: cover;
@@ -855,7 +1707,7 @@ section {
     background: #82c8bd; }
   .bg-contact .header_style__menu .main-menu-item:hover {
     background: #82c8bd; }
-  .bg-contact .title {
+  .bg-contact .title_cont {
     font-size: 30px; }
   .bg-contact .wrap {
     width: 560px;
